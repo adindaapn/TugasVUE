@@ -35,7 +35,7 @@ const increment = () => {
 // Box Color Changer
 const boxColor = ref('lightgray');
 const changeColor = () => {
-  const colors = ['lightgray', 'pink', 'RoyalBlue', 'LightSalmon', 'LightSkyBlue',];
+  const colors = ['green', 'pink', 'RoyalBlue', 'LightSalmon', 'LightSkyBlue', 'mauve', 'fuchsia', 'brown', 'white'];
   boxColor.value = colors[Math.floor(Math.random() * colors.length)];
 };
 
