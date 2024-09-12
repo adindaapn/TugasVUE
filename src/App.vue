@@ -58,18 +58,22 @@ const prevImage = () => {
 <style scoped>
 body {
   font-family: Arial, sans-serif;
+  margin: 0;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
-  margin: 0;
   background-color: #f0f0f0;
 }
 
 .container {
   width: 80%;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
 }
 
